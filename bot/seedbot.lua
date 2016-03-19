@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {108800687},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -327,46 +327,46 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+حذف کردن شخصی از گروه
 
 !ban [ username|id]
-You can also do it by reply
+بن کردن شخصی از گروه
 
 !unban [id]
-You can also do it by reply
+باز کردن از بن
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+لیست کمک مدیران
 
 !promote [username]
-Promote someone
+اضافه کردن کمک مدیر
 
 !demote [username]
-Demote someone
+حذف کردن کمک مدیر
 
 !kickme
-Will kick user
+اخراج خود از گروه
 
 !about
-Group description
+توضیحات گروه
 
 !setphoto
-Set and locks group photo
+تنظیم عکس گروه
 
 !setname [name]
-Set group name
+تنظیم نام گروه
 
 !rules
-Group rules
+قوانین
 
 !id
-Return group id or user id
+ایدی گروه و شما
 
 !help
-Get commands list
+راهنما
 
 !lock [member|name|bots|leave] 
 Locks [member|name|bots|leaveing] 
@@ -384,19 +384,19 @@ Set [text] as about
 Returns group settings
 
 !newlink
-Create/revoke your group link
+ساختن لینک تازه
 
 !link
-Returns group link
+نمایش لینک گروه
 
 !owner
-Returns group owner id
+نمایش آیدی صاحب گروه
 
 !setowner [id]
-Will set id as owner
+صاحب کردن
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم تعداد اسپم
 
 !stats
 Simple message statistics
@@ -417,7 +417,7 @@ Returns user id
 Will return group logs
 
 !banlist
-Will return group ban list
+لیست بن شدگان
 
 » U can use both "/" and "!" 
 
